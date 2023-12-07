@@ -10,11 +10,20 @@ body {
     background-color: var(--light);
 }
 
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
 .card {
     padding: 10px;
     margin: 10px;
+    border: 1px solid blue;
 }
 
 img {
     width: 250px;
 }
+
